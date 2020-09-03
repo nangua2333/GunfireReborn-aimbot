@@ -89,7 +89,7 @@ namespace zcMod
                 {
                     limitangle = !limitangle;
                 }
-                if (Input.GetKey(KeyCode.F))//按F键自瞄(请按个人喜好修改)
+                if (Input.GetKey(KeyCode.l))//按l键自瞄(请按个人喜好修改)
                 {
                     List<NewPlayerObject> monsters = NewPlayerManager.GetMonsters();
                     if (monsters != null)
